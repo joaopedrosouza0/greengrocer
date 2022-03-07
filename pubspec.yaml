@@ -40,10 +40,12 @@ dependencies:
   qr_flutter: ^4.0.0
   add_to_cart_animation: ^0.0.7
   fluttertoast: ^8.0.8
+  shimmer: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.9.2
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -93,3 +95,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_images/app_icon.png"
+  remove_alpha_ios: true
